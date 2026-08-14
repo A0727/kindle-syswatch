@@ -1,0 +1,31 @@
+# Local Python environments
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+
+# Local configuration and generated state
+config.toml
+kindle-extension/kindle-monitor/config.sh
+kindle-extension/kindle-monitor/runtime/
+runtime/
+*.log
+
+# Downloaded third-party tools and binaries
+vendor/
+.tools/
+
+# Local diagnostics and migration notes
+diagnose-*.ps1
+restart-pawnio-admin.ps1
+run-amd-test-as-admin.cmd
+start-monitor-as-admin.cmd
+test-*.ps1
+OPTIMIZATION-V3.md
+新电脑迁移流程.md
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

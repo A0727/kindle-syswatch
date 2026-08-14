@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "name": "Kindle SYSWATCH",
+            "priority": 10,
+            "items": [
+                {
+                    "name": "Start monitor",
+                    "priority": 1,
+                    "action": "./bin/start.sh",
+                    "exitmenu": true
+                },
+                {
+                    "name": "Refresh now",
+                    "priority": 2,
+                    "action": "./bin/refresh.sh",
+                    "exitmenu": true
+                },
+                {
+                    "name": "Stop monitor",
+                    "priority": 3,
+                    "action": "./bin/stop.sh",
+                    "exitmenu": true
+                }
+            ]
+        }
+    ]
+}

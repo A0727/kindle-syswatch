@@ -1,0 +1,25 @@
+[server]
+# Use 0.0.0.0 so the Kindle can reach the dashboard through the LAN or a
+# Windows mobile hotspot. Keep the firewall rule limited to the Kindle.
+bind_host = "0.0.0.0"
+port = 8765
+auth_token = "replace-with-a-random-token-at-least-24-characters"
+sample_interval_seconds = 2.0
+codex_interval_seconds = 60.0
+amd_sample_interval_seconds = 10.0
+
+[dashboard]
+machine_name = "MY-PC"
+title = "KINDLE // SYSWATCH"
+cpu_name = "INTEL CORE I5-12490F"
+cpu_code = "A0"
+gpu_name = "AMD RADEON RX 6600 XT"
+gpu_code = "B1"
+status_label = "NEONS / 0921"
+kindle_model = "PW3::1072X1448"
+refresh_label = "REFRESH 10S  /  CLEAN CYCLE 30M"
+
+[paths]
+sensor_bridge = "vendor/librehardwaremonitor/KindleMonitor.SensorBridge.exe"
+# codex_binary = "C:/path/to/codex.exe"
+# ryzen_master_cli = "C:/Program Files/AMD/RyzenMasterSDK/AMDRyzenMasterCLI/bin-prebuilt/AMDRyzenMasterCLI.exe"

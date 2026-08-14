@@ -11,6 +11,10 @@
 - Windows 热点网关自动发现，无需在 Kindle 固定电脑 IP
 - 可配置硬件名称、节点标识、刷新提示和设备型号
 
+<p align="center">
+  <img src="docs/images/dashboard-example.png" alt="Kindle SYSWATCH 仪表盘示例" width="536">
+</p>
+
 ## 适用环境
 
 - Windows 10/11，Python 3.11 或更高版本
